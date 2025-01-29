@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    hello this is the front-page.php file
+    <?php get_header();?>
+
+    <h1>IDM250</h1>
+
+    <p>hello this is the front-page.php file</p>
+
+    <?php get_footer();?>
 </body>
 </html>
