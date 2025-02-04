@@ -9,24 +9,14 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.php"></li>
-                <li><a href="case-studies.php"></li>
-                <li><a href="resume.php"></li>
-            </ul>
-        </nav>
-
-
-
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="index.php"class="active">Home</a>
-            <a href="case-studies.php">Web Design</a>
-            <a href="photography.php">Photography</a>
-            <a href="resume.php">Resume</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/"class="active">Home</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/case-studies" alt=case-studies.php>Web Design</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/page" alt=photography.php>Photography</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/singles" alt=resume.php>Resume</a>
         </div>
     
         <!-- open sidepanel -->
@@ -34,10 +24,10 @@
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="index.php"class="active">Home</a>
-            <a href="case-studies.php">Web Design</a>
-            <a href="photography.php">Photography</a>
-            <a href="resume.php">Resume</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/"class="active">Home</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/case-studies" alt=case-studies.php>Web Design</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/page" alt=photography.php>Photography</a>
+            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/singles" alt=resume.php>Resume</a>
         </div>
     
     <!-- side panel js start -->
