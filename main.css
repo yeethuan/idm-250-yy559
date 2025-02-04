@@ -53,7 +53,7 @@ nav ul li { */
 }
 
 .topnav a:hover {
-    background-color: #ff00c3;
+    background-color: #df00ae;
     color: #ffffff;
     padding: 6px 12px 6px 12px;
     border-radius: 40px;
@@ -72,6 +72,27 @@ nav ul li { */
     color:#ffffff;
 }
 /* TOPNAV END*/
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #090088;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top:auto;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 
 /* RESPONSIVE CSS*/

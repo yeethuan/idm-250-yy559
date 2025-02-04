@@ -13,10 +13,10 @@
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/"class="active">Home</a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/case-studies" alt=case-studies.php>Web Design</a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/page" alt=photography.php>Photography</a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/singles" alt=resume.php>Resume</a>
+            <a href="front-page.php"class="active">Home</a>
+            <a href="page.php" alt=case-studies.php>Web Design</a>
+            <a href="page.php" alt=photography.php>Photography</a>
+            <a href="singles.php" alt=resume.php>Resume</a>
         </div>
     
         <!-- open sidepanel -->
@@ -24,10 +24,10 @@
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/"class="active">Home</a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/case-studies" alt=case-studies.php>Web Design</a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/page" alt=photography.php>Photography</a>
-            <a href="https://digmstudents.westphal.drexel.edu/~yy559/idm250/singles" alt=resume.php>Resume</a>
+            <a href="front-page.php"class="active">Home</a>
+            <a href="page.php" alt=case-studies.php>Web Design</a>
+            <a href="page.php" alt=photography.php>Photography</a>
+            <a href="singles.php" alt=resume.php>Resume</a>
         </div>
     
     <!-- side panel js start -->

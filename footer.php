@@ -8,14 +8,8 @@
 
 <body>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="index.php"></li>
-                <li><a href="case-studies.php"></li>
-                <li><a href="resume.php"></li>
-            </ul>
-        </nav>
-</footer>
+            Yi Huan Yang | yihuan.yang@drexel.edu | linkedin.com/in/yihuanyang/
+    </footer>
     
 </body>
 </html>
