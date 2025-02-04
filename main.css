@@ -1,4 +1,4 @@
-nav {
+/* nav {
     background-color: #090088;
     color: snow;
     display: flex;
@@ -7,11 +7,11 @@ nav {
 nav ul {
     list-style-type: none;
 }
-nav ul li {
+nav ul li { */
     /* Puts the elements in a single line */
-    display: inline-flex;
-    margin: 0.3em 1em;
-}
+    /* display: inline-flex;
+    margin: 0.3em 1em; */
+/* } */
 
 
 /* ------------------------------ */
@@ -32,7 +32,7 @@ nav ul li {
 /* TOPNAV START*/
 .topnav {
     overflow: hidden;
-    background-color: #006aff;
+    background-color: #090088;
     top:0;
     padding: 14px 16px;
     
@@ -53,7 +53,7 @@ nav ul li {
 }
 
 .topnav a:hover {
-    background-color: #004594;
+    background-color: #ff00c3;
     color: #ffffff;
     padding: 6px 12px 6px 12px;
     border-radius: 40px;
@@ -61,7 +61,7 @@ nav ul li {
 }
 
 .topnav a.active {
-    background-color: #004594;
+    background-color: #df00ae;
     color: #ffffff
     padding: 6px 11px 6px 11px;
     border-radius: 40px;
