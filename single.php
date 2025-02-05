@@ -7,13 +7,32 @@
     <title>Singles</title>
 </head>
 <body>
-    <?php get_header();?>
+    <?php get_header(); ?>
 
-    <h1>IDM250</h1>
+    <main class="post-container">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <article class="post">
+                <h1 class="post-title"><?php the_title(); ?></h1>
+                <p class="post-meta">Published on <?php the_date(); ?> in <?php the_category(', '); ?></p>
+                
+                <?php if (has_post_thumbnail()) : ?>
+                    <div class="post-thumbnail">
+                        <?php the_post_thumbnail(); ?>
+                    </div>
+                <?php endif; ?>
+                
+                <div class="post-content">
+                    <?php the_content(); ?>
+                </div>
+                
+                <div class="post-tags">
+                    <?php the_tags('Tags: ', ', '); ?>
+                </div>
+            </article>
+        <?php endwhile; endif; ?>
+    </main>
 
-    <p>hello this is the singles.php file</p>
-
-    <?php get_footer();?>
+    <?php get_footer(); ?>
 
 </body>
 </html>
