@@ -18,7 +18,7 @@
 
 
 
-    
+
 <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/media/projects/petes-thumb.webp" alt=petes-thumbnail> -->
 
     <header>
@@ -48,29 +48,5 @@
             <a href="front-page.php"class="active">Home</a> -->
         </div>
     
-    <!-- side panel js start -->
-        <script>
-            function openNav() {
-                document.getElementById("mySidebar").style.width = "250px";
-            }
-    
-            function closeNav() {
-                document.getElementById("mySidebar").style.width = "0";
-            }
-    
-            function toggleNav() {
-                var sidepanel = document.getElementById("mySidepanel");
-                var topnav = document.getElementById("myTopnav");
-    
-                if (sidepanel.style.width === "250px") {
-                    sidepanel.style.width = "0";
-                    topnav.style.display = "block";
-                } else {
-                    sidepanel.style.width = "250px";
-                    topnav.style.display = "none";
-                }
-                
-            }
-        </script>
     </header>
     
