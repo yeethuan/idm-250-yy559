@@ -9,13 +9,6 @@ function theme_styles_and_scripts()
         '8.0.1'
     );
 
-    // wp_enqueue_style(
-    //     'google-fonts',
-    //     "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900&family=Poppins:wght@100..900&display=swap",
-    //     [], 
-    //     filemtime(get_template_directory() . '/styles/main.css')
-    // );
-
     wp_enqueue_style(
         'idm-main-style',
         get_template_directory_uri() . '/styles/main.css',

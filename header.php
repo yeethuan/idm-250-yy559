@@ -56,5 +56,3 @@
         </script>
     </header>
     
-</body>
-</html>
