@@ -47,9 +47,16 @@ add_action('after_setup_theme', 'theme_setup');
 function register_custom_post_types() {
     $args = [
         'public' =>true,
-        'label' =>'books',
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'projects'], //domain.com/projects/post-name
         'supports' =>['title','editor','thumbnail','excerpt','comments'],
-    ]
+        'menu_position' => 5,
+        'show_in_rest' =>true,
+    ];
+
+    $post_type_name = 'projects';
+
+    register_post_type($post_type_name, $args);
 }
 
 
