@@ -10,6 +10,7 @@
         bloginfo('name');
         ?>
     </title>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/dist/styles/main.css">
     <?php wp_head(); ?>
 </head>
 

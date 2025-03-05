@@ -16,6 +16,14 @@ function theme_styles_and_scripts()
         filemtime(get_template_directory() . '/styles/main.css')
     );
 
+    wp_enqueue_script(
+        'idm-main-script',
+        get_template_directory_uri() . '/scripts/main.js',
+        [], 
+        filemtime(get_template_directory() . '/scripts/main.js') //Cache-busting by file modification
+        true//Load in the footer
+    );
+
 }
 
 add_action('wp_enqueue_scripts', 'theme_styles_and_scripts');
