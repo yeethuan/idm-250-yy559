@@ -8,6 +8,9 @@
 </head>
 
 <body>
+
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/media/projects/petes-thumb.webp" alt=petes-thumbnail>
+
     <header>
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
