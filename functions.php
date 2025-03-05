@@ -46,6 +46,12 @@ add_action('after_setup_theme', 'theme_setup');
 
 function register_custom_post_types() {
     $args = [
+
+        'labels' => [
+            'name' => 'Projects',
+            'singular_name' => 'Project',
+        ],
+
         'public' =>true,
         'has_archive' => true,
         'rewrite' => ['slug' => 'projects'], //domain.com/projects/post-name
