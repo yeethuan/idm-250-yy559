@@ -1,5 +1,7 @@
 //side panel js start
- 
+console.log('hey it works'); 
+
+
             function openNav() {
                 document.getElementById("mySidebar").style.width = "250px";
             }
