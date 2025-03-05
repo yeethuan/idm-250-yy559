@@ -1,12 +1,31 @@
 <?php get_header(); ?>
-<?php include 'functions.php'; ?>
 
-<div class="hero">
-        <h1>Outlook Microinteraction Analysis</h1>
-        <h5>Redesigning Microsoft Outlook Emails using <br> HTML5, CSS3, JavaScript</h5>
-        <a href="https://yy559.netlify.app/idm241/final/build" target="_blank">
-            <img src="media/projects/outlook/hero-outlook.png" class="hero-image" alt="hero-image">
-        </a>
-    </div>
+<main class="post-container">
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+        <article class="post">
+            <h1 class="post-title"><?php the_title(); ?></h1>
+            <p class="post-meta">Published on <?php the_date(); ?> in <?php the_category(', '); ?></p>
+            
+
+            <?php get_template_part('components/post-meta'); ?>
+
+            <?php if (has_post_thumbnail()) : ?>
+                <div class="post-thumbnail">
+                    <?php the_post_thumbnail(); ?>
+                </div>
+            <?php endif; ?>
+            
+
+
+            <div class="post-content">
+                <?php the_content(); ?>
+            </div>
+            
+            <div class="post-tags">
+                <?php the_tags('Tags: ', ', '); ?>
+            </div>
+        </article>
+    <?php endwhile; endif; ?>
+</main>
 
 <?php get_footer(); ?>
