@@ -55,8 +55,10 @@ function register_custom_post_types() {
         'public' =>true,
         'has_archive' => true,
         'rewrite' => ['slug' => 'projects'], //domain.com/projects/post-name
-        'supports' =>['title','editor','thumbnail','excerpt','comments'],
+        'supports' =>['title','editor','thumbnail','excerpt',],
         'menu_position' => 5,
+        
+        'menu_icon' => 'dashicons-portfolio',
         'show_in_rest' =>true,
     ];
 
