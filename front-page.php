@@ -1,4 +1,5 @@
 
+<?php get_header(); ?>
     <div class="rounded-box">
             <div class="introduction-text">
                 <h1>逸 ~ Yi Huan</h1>
@@ -13,3 +14,4 @@
             </div>
         </div>
     </div>
+<?php get_footer(); ?>
