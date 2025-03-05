@@ -13,8 +13,12 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
 
+
+
+    
 <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/media/projects/petes-thumb.webp" alt=petes-thumbnail> -->
 
     <header>
@@ -37,6 +41,11 @@
             <a href="page.php" alt=case-studies.php>Web Design</a>
             <a href="page.php" alt=photography.php>Photography</a>
             <a href="singles.php" alt=resume.php>Resume</a>
+
+            <!-- <a href="singles.php" alt=resume.php>Resume</a>
+            <a href="page.php" alt=photography.php>Photography</a>
+            <a href="page.php" alt=case-studies.php>Web Design</a>
+            <a href="front-page.php"class="active">Home</a> -->
         </div>
     
     <!-- side panel js start -->
