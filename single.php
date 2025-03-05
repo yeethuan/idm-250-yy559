@@ -6,12 +6,17 @@
             <h1 class="post-title"><?php the_title(); ?></h1>
             <p class="post-meta">Published on <?php the_date(); ?> in <?php the_category(', '); ?></p>
             
+
+            <?php get_template_part('components/post-meta'); ?>
+
             <?php if (has_post_thumbnail()) : ?>
                 <div class="post-thumbnail">
                     <?php the_post_thumbnail(); ?>
                 </div>
             <?php endif; ?>
             
+
+
             <div class="post-content">
                 <?php the_content(); ?>
             </div>

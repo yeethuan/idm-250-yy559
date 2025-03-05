@@ -41,3 +41,16 @@ function theme_setup()
 }
 
 add_action('after_setup_theme', 'theme_setup');
+
+
+
+function register_custom_post_types() {
+    $args = [
+        'public' =>true,
+        'label' =>'books',
+        'supports' =>['title','editor','thumbnail','excerpt','comments'],
+    ]
+}
+
+
+add_action('init','register_custom_post_types');
