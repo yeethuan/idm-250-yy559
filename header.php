@@ -9,7 +9,7 @@
 
 <body>
 
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/media/projects/petes-thumb.webp" alt=petes-thumbnail>
+<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/media/projects/petes-thumb.webp" alt=petes-thumbnail> -->
 
     <header>
         <div id="mySidepanel" class="sidepanel">
