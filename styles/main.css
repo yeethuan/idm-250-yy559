@@ -465,7 +465,10 @@ margin-bottom: 5px;
 
 
 
-
+/* ERROR START------------------------------------------------------------------------*/
+.error img{
+  text-align:center;
+}
 
 
 
