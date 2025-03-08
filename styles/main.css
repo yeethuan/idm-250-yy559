@@ -62,7 +62,9 @@ body {
   margin: 0;
 }
 
-/* Headings */
+
+
+/* Where - every page H1 light pink */
 h1 {
   font-family: var(--font-heading);
   color: var(--salmon-orange);
@@ -72,6 +74,7 @@ h1 {
   font-size: 40px;
 }
 
+/* Where - case study hotpink headings */
 h2{
   font-size: 18px;
   font-family: "montserrat";
@@ -83,6 +86,8 @@ h2{
   padding:0px;
 }
 
+
+/* Where - home page case cards title*/
 h3 {
   color: #ffffff;
   font-family: "Montserrat";
@@ -93,6 +98,7 @@ h3 {
   text-align: left;
 }
 
+/* Where - home page case cards subtitle*/
 h4 {
   font-family: "Montserrat";
   color:#cccccc;
@@ -101,6 +107,7 @@ h4 {
   font-size: 16px;
 }
 
+/* Where - case study subheadings*/
 h5{
   font-family: "Montserrat";
   color:var(--dark-gray);
@@ -111,7 +118,7 @@ h5{
 }
 
 
-/* Used on case study - body content, */
+/* Where - paragraphs everywhere*/
 p {
   color: var(--color-text);
   font-size: var(--font-size-default);
