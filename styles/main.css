@@ -32,21 +32,21 @@
 /* Custom font setup */
 @font-face {
   font-family:"Rock_3D";
-  src: url(fonts/Rock3D-Regular.ttf) format('truetype');
+  src: url("../media/fonts/Rock3D-Regular.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family:"Montserrat";
-  src: url(fonts/Montserrat-Medium.ttf) format('truetype');
+  src: url("../media/fonts/Montserrat-Medium.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family:"Poppins-ExtraBold";
-  src: url(fonts/Poppins-ExtraBold.ttf),format('truetype');
+  src: url("../media/fonts/Poppins-ExtraBold.ttf"),format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -66,18 +66,19 @@ body {
 h1 {
   font-family: var(--font-heading);
   color: var(--salmon-orange);
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-bottom: 0px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2{
-  font-size: var(--font-size-default);
+  font-size: 18px;
   font-family: "montserrat";
-  color: #656565;
-  margin-left: 200px;
-  margin-right: 200px;
+  color: var(--hot-pink);
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-bottom: 0px;
   padding:0px;
 }
@@ -97,21 +98,26 @@ h4 {
   color:#cccccc;
   margin:0px;
   margin-left: 10px;
+  font-size: 16px;
 }
 
 h5{
   font-family: "Montserrat";
   color:var(--dark-gray);
-  font-size: 18px;
+  font-size: 16px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  margin-top:10px;
 }
 
-/* Paragraph styles */
+
+/* Used on case study - body content, */
 p {
   color: var(--color-text);
   font-size: var(--font-size-default);
   font-family: "montserrat";
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
   line-height: 1.3rem;
 }
 
@@ -327,19 +333,10 @@ background-color: #f9f8f8;
 }
 
 
-.hero {
-margin-left:200px;
-margin-right:200px;
-padding-bottom:30px;
-padding-top:20px;
-}
-
-
-.hero-image {
-width: 100%;
-text-align: center;
-border-radius: 40px;
-box-shadow:5px 5px 2px #8f8f8f;
+.post-thumbnail img{
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 /* HERO END*/
 
@@ -490,10 +487,10 @@ margin-bottom: 5px;
 
 
 
-/* h1 {
-  font-size: 20px;
-  margin-left: 100px;
-  margin-right: 100x;
+h1 {
+  font-size: 40px;
+  margin-left: 80px;
+  margin-right: 80x;
 }
 
 h2 {
@@ -503,20 +500,19 @@ h2 {
 }
 
 p{
-  margin-left: 100px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 
-.projects-grid {
+/* .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 20px;
   padding: 0px 40px 40px 40px;
   max-width: 90%;
   margin: 0 auto;
-} */
+} */ */
 
 
 
