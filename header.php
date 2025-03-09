@@ -17,37 +17,25 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-
-
-
-<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/media/projects/petes-thumb.webp" alt=petes-thumbnail> -->
-
     <header>
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="front-page.php"class="active">Home</a>
-            <a href="page.php" alt=case-studies.php>Web Design</a>
-            <a href="page.php" alt=photography.php>Photography</a>
-            <a href="singles.php" alt=resume.php>Resume</a>
+            <a href="<?php echo home_url('/'); ?>" class="<?php echo is_front_page() ? 'active' : ''; ?>">Home</a>
+            <a href="<?php echo get_permalink(get_page_by_path('about-me')); ?>" class="<?php echo is_page('about-me') ? 'active' : ''; ?>">About Me</a>
+            <a href="<?php echo get_permalink(get_page_by_path('photography')); ?>" class="<?php echo is_page('photography') ? 'active' : ''; ?>">Photography</a>
+            <a href="<?php echo get_permalink(get_page_by_path('resume')); ?>" class="<?php echo is_page('resume') ? 'active' : ''; ?>">Resume</a>
         </div>
-    
-        <!-- open sidepanel -->
+
+        <!-- Open Sidepanel -->
         <div class="topnav" id="myTopnav">
             <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="front-page.php"class="active">Home</a>
-            <a href="page.php" alt=case-studies.php>Web Design</a>
-            <a href="page.php" alt=photography.php>Photography</a>
-            <a href="singles.php" alt=resume.php>Resume</a>
-
-            <!-- <a href="singles.php" alt=resume.php>Resume</a>
-            <a href="page.php" alt=photography.php>Photography</a>
-            <a href="page.php" alt=case-studies.php>Web Design</a>
-            <a href="front-page.php"class="active">Home</a> -->
+            <a href="<?php echo get_permalink(get_page_by_path('resume')); ?>" class="<?php echo is_page('resume') ? 'active' : ''; ?>">Resume</a>
+            <a href="<?php echo get_permalink(get_page_by_path('photography')); ?>" class="<?php echo is_page('photography') ? 'active' : ''; ?>">Photography</a>
+            <a href="<?php echo get_permalink(get_page_by_path('about-me')); ?>" class="<?php echo is_page('about-me') ? 'active' : ''; ?>">About Me</a>
+            <a href="<?php echo home_url('/'); ?>" class="<?php echo is_front_page() ? 'active' : ''; ?>">Home</a>
         </div>
-    
     </header>
-    

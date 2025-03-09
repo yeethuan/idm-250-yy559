@@ -37,6 +37,15 @@
   </div>
   <?php endif; ?>
 
+  <p>
+    <div class="post-content">
+        <?php the_content(); ?>
+    </div>
+          
+  </p>
+
+  
+
   <?php get_template_part('components/content'); ?>
 </div>
 
