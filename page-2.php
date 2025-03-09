@@ -41,8 +41,8 @@ get_header(); ?>
   <?php endif; ?>
 
 <div class="wrapper">
-  <h1 class="page-header">
-    <?php echo get_the_title(); ?>
+    <h1 class="page-header" style="text-align: center;">
+<?php echo get_the_title(); ?>
   </h1>
 
   <p>

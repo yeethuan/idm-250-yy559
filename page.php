@@ -27,7 +27,7 @@
 ?>
 <?php get_header(); ?>
 <div class="wrapper">
-  <h1 class="page-header">
+  <h1 class="page-header" style="text-align: center;">
     <?php echo get_the_title(); ?>
   </h1>
 
@@ -40,8 +40,7 @@
   <p>
     <div class="post-content">
         <?php the_content(); ?>
-    </div>
-          
+    </div> 
   </p>
 
   
