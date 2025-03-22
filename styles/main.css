@@ -138,7 +138,7 @@
   .projects-wrapper {
     display: grid;
     grid-template-columns: repeat(2,2fr) ; 
-    gap: 60px;
+    gap: 30px;
     max-width: 80%;
     margin-left: 300px;
     margin-right: 300px;
