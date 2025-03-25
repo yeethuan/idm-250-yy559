@@ -131,3 +131,10 @@ function register_custom_project_category()
 }
 
 add_action('init', 'register_custom_project_category');
+
+
+function my_theme_activation() {
+    // Flush rewrite rules on theme activation
+    flush_rewrite_rules();
+}
+add_action('after_switch_theme', 'my_theme_activation');

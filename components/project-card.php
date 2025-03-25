@@ -13,26 +13,13 @@
  */
 ?>
 
-<article class="project-card">
-  <a href="<?php the_permalink(); ?>" class="project-card__link">
-    <?php if (has_post_thumbnail()) : ?>
-    <div class="project-card__image-wrapper">
-      <?php the_post_thumbnail('large', ['class' => 'project-card__image']); ?>
-      <div class="project-card__overlay"></div>
-      <div class="project-card__meta">
-        <time datetime="<?php echo get_the_date('c'); ?>" class="project-card__date">
-          <?php echo get_the_date(); ?>
-        </time>
-        <?php
-                    $tags = get_the_terms(get_the_ID(), 'project-categories');
-        if (!empty($tags) && !is_wp_error($tags)) :
-            $tag_names = wp_list_pluck($tags, 'name');
-            echo '<span class="project-card__tags">' . implode(', ', $tag_names) . '</span>';
-        endif;
-        ?>
-      </div>
-      <h3 class="project-card__title"><?php the_title(); ?></h3>
-    </div>
-    <?php endif; ?>
-  </a>
-</article>
+<div class="project-card">
+    <a href="<?php the_permalink(); ?>">
+        <?php if (has_post_thumbnail()) : ?>
+            <div class="project-thumbnail">
+                <?php the_post_thumbnail('medium'); ?>
+            </div>
+        <?php endif; ?>
+        <h2 class="project-title"><?php the_title(); ?></h2>
+    </a>
+</div>

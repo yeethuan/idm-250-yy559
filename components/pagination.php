@@ -19,10 +19,16 @@
  *     'total' => $query->max_num_pages
  * ]);
  */
-$big = 999999999; // need an unlikely integer
-echo paginate_links([
-    'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
-    'format' => '?paged=%#%',
-    'current' => max(1, get_query_var('paged')),
-    'total' => $query->max_num_pages
-]);
+?>
+
+<div class="pagination">
+    <?php
+    echo paginate_links([
+        'total' => $query->max_num_pages,
+        'prev_text' => __('« Previous', 'idm250-2025'),
+        'next_text' => __('Next »', 'idm250-2025'),
+    ]);
+    ?>
+</div>
+
+

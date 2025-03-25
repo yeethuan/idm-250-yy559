@@ -46,13 +46,9 @@ get_header(); ?>
   </h1>
 
   <p>
-    <div class="post-content">
-        <?php the_content(); ?>
-    </div>
-          
+  <?php get_template_part('components/content'); ?>
   </p>
 
-  <?php get_template_part('components/content'); ?>
 </div>
 
 <?php get_footer(); ?>

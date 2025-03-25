@@ -7,20 +7,20 @@
         <?php
     while (have_posts()) : the_post(); ?>
         <div class="grid-item">
-        <?php get_template_part('components/blog-card'); ?>
+        <?php get_template_part('components/project-card'); ?>
         </div>
 
-        <?php 
+        <!-- <?php 
         $categories = get_the_term_list(get_the_ID(), 'project-categories', '', ', ', '');
         if ($categories) {
             echo '<p class="project-card__categories">' . $categories . '</p>';
         } 
-        ?>
+        ?> -->
 
         <?php endwhile; ?>
     </ul>
 
-
+    
 
     <?php the_posts_pagination(); ?>
 
@@ -29,4 +29,3 @@
     <?php endif; ?>
 </div>
 <?php get_footer(); ?>
-<?php get_template_part('components/latest-projects'); ?>

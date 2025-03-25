@@ -37,15 +37,13 @@
   </div>
   <?php endif; ?>
 
-  <p>
-    <div class="post-content">
-        <?php the_content(); ?>
-    </div> 
-  </p>
+  <div class="content">
+    <?php the_content(); ?>
+</div>
+
+
 
   
-
-  <?php get_template_part('components/content'); ?>
 </div>
 
 <?php get_footer(); ?>
